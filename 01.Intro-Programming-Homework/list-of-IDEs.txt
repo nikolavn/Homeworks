@@ -1,0 +1,10 @@
+1. Visual Studio - Written in C++ and C# it is an IDE from Microsoft and uses its development platforms. It has a lot of programming languages build-in ( C, C++ and C++/CLI (via Visual C++), VB.NET (via Visual Basic .NET), C# (via Visual C#), and F# (as of Visual Studio 2010). A lot of other languages are available through language services installed separately. 
+
+2. Eclipse - Written in Java it provides a basic workspace and customization is achieved through plug-ins.With the help of these plug-ins Eclipse could be used to devlop applications in other programming languages. Eclipse is cross-platform as oposed to Visual Studio, which can be used on Windows only.
+
+3. NetBeans - Written in Java and used primarily for Java development. NetBeans is also an application platform framework for Java desktop applications. It can run on any platform that supports compatible Java Virtual Machine (JVM).
+
+4. Code::Blocks - Code::Blocks, an extensible and fully configurable IDE designed to support its users most demanding needs, supports C, C++ and Fortran. It provides a consistent look, feel and operation across all platforms for seamless transitions between work spaces, and it’s built around a plug-in framework, providing a multitude of options for extension. It’s open-source and offers cross-platform functionality with no hidden costs.
+
+5. Komodo IDE - Komodo is a comprehensive IDE that supports all major programming languages, providing a single tool that meets your development needs across the spectrum. Whether you’re working with Python, PHP, Ruby, Perl, HTML, CSS or JavaScript, Komodo provides a clean, intuitive interface with advanced editing capabilities and integrated tools for the most functionality.  
+

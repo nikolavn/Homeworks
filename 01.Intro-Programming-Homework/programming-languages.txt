@@ -1,0 +1,11 @@
+The list below is based on the trends in programming, as identified by PluralSight.
+
+1. Java - It is currently considered the most popular programming language. This could be because it is platform independent and there are a lot of development tools. Otherwise Java is similar to C# as both are class-based, object-oriented languages. 
+
+2. SQL - Language used for managing data stored in relational database management systems. This language's popularity is determined by the fact that it resembles human language the most and thus is easier to learn. There aren't really any similarities between SQL and C# apart, maybe, from the fact that they are both part of the .NET Framework.
+
+3. Objective-C - Apple's iOS and OS X are written in Objective-C therefore the popularity of the language. As C# it is object-oriented language, but because it is based on C and C# is based on C++ the syntax is different. One other notable difference is the manual memory management in Objective-C.
+
+4. Python - It is an object-oriented language, which it has in common with C#. Python is popular because it is adopted by companies like Dropbox, YouTube(Google), Instagram etc. A notable difference is the syntax. Python uses blank spaces and indentation to separate code, whereas C# uses curly braces and that is hyw is often refered to as curly-braced language.
+
+5. Ruby - Is a language for creating applications for the web. It uses its own framework, Ruby on Rails, to run these applications. Considering this the only similarity between both languages is the fact that both are object-oriented ones.
