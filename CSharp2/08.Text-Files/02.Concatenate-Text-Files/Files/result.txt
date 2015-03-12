@@ -1,0 +1,6 @@
+Problem 1. Odd lines
+
+Write a program that reads a text file and prints on the console its odd lines.
+Problem 2. Concatenate text files
+
+Write a program that concatenates two text files into another text file.
