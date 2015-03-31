@@ -1,0 +1,1 @@
+﻿public enum Customer { Individual, Company }
