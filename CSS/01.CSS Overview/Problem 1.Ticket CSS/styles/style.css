@@ -1,0 +1,62 @@
+table{
+    background:#595959;
+    font-family: Arial, sans-serif;
+}
+ 
+.left-column{
+    width: 100px;
+}
+ 
+.right-column{
+    width: 225px;
+}
+ 
+thead{
+    text-align:left;
+    font-weight:lighter;
+    font-size:1.2em;
+}
+ 
+tbody{
+    font-size:0.75em;
+}
+ 
+tbody td p{
+    margin:0;
+    padding 0;
+}
+ 
+td:nth-child(2){
+    margin:5px;
+    padding:5px;
+}
+ 
+.description{
+    color:white;
+    font-style:italic;
+}
+ 
+.regular-text{
+    color:#FFF69A;
+}
+ 
+.system-text{
+    color:#A4AEAC;
+}
+ 
+.customer-status{
+    color:red;
+    font-weight:bold;
+}
+ 
+.ticket-status{
+    color:#D16A22;
+    font-weight:bold;
+}
+ 
+#status-icon{
+    margin-right:5px;
+    padding:0;
+    font-size:2em;
+    color:#71B47A;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<form method="get">
+
+		<table>
+		<thead>
+			
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="2">
+					<input type="submit" value="Submit" >
+					<input type="reset" value="Clean this form">
+				</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td class="header-cell">Last Name</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td class="header-cell">First Name</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td class="header-cell">Adress</td>
+				<td>
+					<textarea cols="35" rows="5">
+					
+					</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td  class="header-cell">City</td>
+				<td><input type="text"><span>State <input type="text"></span></td>
+			</tr>
+			<tr>
+				<td class="header-cell">Zip/Postal Code</td>
+				<td><input type="text" id="zip"></td>
+			</tr>
+			<tr>
+				<td class="header-cell">Country</td>
+				<td>
+					<select name="country">
+					<option value="Bulgaria"  selected="selected">Bulgaria</option>
+					<option value="Germany">Germany</option>
+					<option value="France">France</option>
+					<option value="Spain">Spain</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="header-cell">Phone(country code, area code,number)</td>
+				<td>(+<input type="text" id="country-code" />) <input type="text" id="area-code" />  <input type="text" id="number" /></td>
+			</tr>
+			<tr>
+				<td class="header-cell">Email</td>
+				<td><input type="email" pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}" /></td>
+			</tr>
+			<tr>
+				<td class="header-cell">Birth date</td>
+				<td><input type="text" placeholder="дд. мм. гггг г." /></td>
+			</tr>
+			<tr>
+				<td class="header-cell">Gender</td>
+				<td>
+					<select>
+						<option value="Male" selected="selected">Male</option>
+						<option value="Female">Female</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="header-cell">Starting date</td>
+				<td>
+					<input type="radio"  value="spring" />Spring 2015
+					<input type="radio"  value="summer" />Summer 2015
+				</td>
+			</tr>
+			<tr>
+				<td class="header-cell">Comments/Questions</td>
+				<td>
+					<textarea cols="35" rows="5">
+					
+					</textarea>
+				</td>
+			</tr>
+		</tbody>
+		</table>
+	</form>
+</body>
+</html>

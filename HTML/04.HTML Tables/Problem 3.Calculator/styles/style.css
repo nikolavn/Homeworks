@@ -1,0 +1,48 @@
+form{
+    width:280px;
+    height:350px;
+    margin:0;
+    padding: 0 auto;
+    overflow:hidden;
+    border:2px solid #B71C1C;
+    -webkit-box-shadow: 5px 5px 14px -2px rgba(190,204,202,1);
+    -moz-box-shadow: 5px 5px 14px -2px rgba(190,204,202,1);
+    box-shadow: 5px 5px 14px -2px rgba(190,204,202,1); 
+}
+ 
+input{
+    width:100%;
+    height:20%;
+    text-align:right;
+    font-family: Segoe UI, sans-serif;
+    font-size: 3em;
+    font-style:bold;
+    border:1px solid #B71C1C;   
+    background:#CFD8DC;
+    text-shadow:1px 1px #EF5350;
+    color:#E53935;
+}
+ 
+button{
+    width:25%;
+    height:20%;
+    padding:none;
+    margin:none;
+    float:left;
+    font-family: Segoe UI, sans-serif;
+    font-size: 2em;
+    font-style:bold;
+    border:1px solid #B71C1C;
+    background: #CFD8DC;
+    text-shadow:1px 1px #EF5350;
+    color:#E53935;
+}
+ 
+button[class~="wide"]{
+    width:50%;
+}
+ 
+button:hover{
+    background:#EF9A9A;
+    color:#CFD8DC;
+}

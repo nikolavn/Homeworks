@@ -1,0 +1,39 @@
+#table-1{
+	width: 400px;
+	margin: 0;
+	padding: 0
+}
+
+#table-1 thead{
+	font-size: 2em;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	height: auto;
+}
+
+
+#table-2, #table-2 td{
+    border: 1px solid gray;
+}
+ 
+t#able-2{
+    text-align:center;
+}
+ 
+#table-2>td{
+    width:20%;
+}
+ 
+.left{
+    text-align:left;
+}
+ 
+.right{
+    text-align:right;
+}
+ 
+.right.bottom{
+    text-align:right;
+    vertical-align:bottom;
+}

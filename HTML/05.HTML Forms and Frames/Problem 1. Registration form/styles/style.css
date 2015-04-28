@@ -1,0 +1,62 @@
+form
+{
+    width: 415px;
+    height: 455px;
+}
+
+table,
+tr,
+td
+{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tfoot
+{
+    width: 100%;
+    text-align: center;
+    background-color: deepskyblue;
+}
+
+.header-cell
+{
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+}
+
+textarea
+{
+    overflow: hidden;
+}
+
+td > span
+{
+    padding-left: 25px;
+}
+
+td > span > input
+{
+    width: 10%;
+}
+
+#zip
+{
+	width: 25%;
+}
+
+#country-code
+{
+    width: 20%;
+}
+
+#area-code
+{
+    width: 20%;
+}
+
+#number
+{
+    width: 40%;
+}

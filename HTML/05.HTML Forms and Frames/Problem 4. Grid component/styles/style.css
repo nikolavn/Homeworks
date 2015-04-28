@@ -1,0 +1,135 @@
+body{
+	margin: 0 auto;
+	font-family: Segoe UI, sans-serif;
+	font-size: 12px;
+}
+
+.numbers, .numbers input{
+	width: 40px;
+}
+
+.product-name{
+	width: 250px;
+}
+
+.unit-price, .quantity-per-unit{
+	width: 150px;
+}
+
+.units-in-stock{
+	width: 175px;
+}
+
+.product-name input{
+	width: 150px;
+}
+
+.unit-price input, .quantity-per-unit input, .units-in-stock input{
+	width: 75px;
+}
+
+table, thead tr td {
+	border:1px solid #A6A6A6;
+	border-collapse: collapse;
+}
+
+tfoot tr{
+	border: 1px solid #A6A6A6;
+	border-collapse: collapse;
+}
+
+tbody tr td{
+	border:1px solid lightgray;
+	border-collapse: collapse;
+}
+
+thead tr td{
+	margin: 0;
+	padding: 5px;
+}
+
+thead tr td img{
+	vertical-align: middle;
+	margin-left:5px;
+}
+
+tbody tr td{
+	padding: 5px;
+}
+
+thead{
+	background-image: -webkit-gradient(linear, 0 0, 0 25, color-stop(0.08, #f1f1f3), to(#dbdfe4));
+	background-image: -webkit-linear-gradient(#f1f1f3 8%, #dbdfe4);
+	background-image: -moz-linear-gradient(#f1f1f3 8%, #dbdfe4);
+	background-image: -o-linear-gradient(#f1f1f3 8%, #dbdfe4);
+	background-image: linear-gradient(#f1f1f3 8%, #dbdfe4)
+}
+
+tfoot{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.35, #E0E4E8),
+	color-stop(0.8, #B9BEC3)
+	);
+	background-image: -o-linear-gradient(bottom, #E0E4E8 35%, #B9BEC3 80%);
+	background-image: -moz-linear-gradient(bottom, #E0E4E8 35%, #B9BEC3 80%);
+	background-image: -webkit-linear-gradient(bottom, #E0E4E8 35%, #B9BEC3 80%);
+	background-image: -ms-linear-gradient(bottom, #E0E4E8 35%, #B9BEC3 80%);
+	background-image: linear-gradient(to bottom, #E0E4E8 35%, #B9BEC3 80%);
+}
+
+tfoot ul li{
+	list-style: none;
+	display: inline-block;
+	width: 15px;
+	text-align: center;
+}
+
+tfoot ul li.selected{
+	border:1px solid #C95C05;
+	border-radius: 2px;
+	padding-bottom: 3px;
+	margin-left: 5px;
+}
+
+tfoot ul li.button{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+#footer-left{
+	margin: 0;
+	padding: 5px;
+}
+
+#footer-left ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#footer-left select, #footer-left span{
+	float: left;
+}
+
+#footer-left select{
+	margin-left: 10px;
+	padding-left: 0;	
+}
+
+#footer-left span{
+	margin-left: 20px;
+
+}
+
+#footer-right{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+#footer-right span{
+	padding-right: 10px;
+}

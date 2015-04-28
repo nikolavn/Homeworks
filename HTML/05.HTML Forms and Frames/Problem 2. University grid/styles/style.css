@@ -1,0 +1,25 @@
+table{
+	width:630px;
+	height: 425px;
+}
+
+table,tr,td{
+	border: 2px ridge gray;
+	border-collapse: collapse;
+}
+
+
+thead, .total{
+	font-weight: bold;
+	text-align: center;
+}
+
+.pages-container, .pages-container>li{
+	list-style: none;
+	display: inline-block;
+}
+
+.pages-container{
+	margin: 10px 0px;
+	padding: 0;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ingredients Table</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<td colspan="6">
+					Drag a column header and drop it here to group by that column
+				</td>
+			</tr>
+			<tr>
+				<td class="numbers">ProductID</td>
+				<td>Product Name</td>
+				<td>Unit Price</td>
+				<td>Quantity per unit</td>
+				<td>Units in stock</td>
+				<td>Discontinued</td>
+			</tr>
+			<tr id="filter-row">
+				<td class="numbers"><input type="text"/></td>
+				<td class="product-name"><input type="text" /></td>
+				<td class="unit-price"><input type="text" /><img src="images/filter.png"></td>
+				<td class="quantity-per-unit"><input type="text" /></td>
+				<td class="units-in-stock"><input type="text" /><img src="images/filter.png"></td>
+				<td><input type="checkbox" /><img src="images/filter.png"></td>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td id="footer-left" colspan="3">
+					<ul>
+						<li class="button"><img src="images/first.png"></li>
+						<li class="button"><img src="images/prev.png"></li>
+						<li class="selected">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+						<li>8</li>
+						<li>9</li>
+						<li>10</li>
+						<li>...</li>
+						<li class="button"><img src="images/next.png"></li>
+						<li class="button"><img src="images/last.png"></li>
+					</ul>
+					<span>
+					Page size:
+					</span>
+					<select>
+						<option selected>10</option>
+						<option>9</option>
+					</select>
+				</td>
+				<td id="footer-right" colspan="3"><span>335104 items in 33511 pages</span></td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td class="numbers">1</td>
+				<td class="product-name">Chai</td>
+				<td class="unit-price">$18.00</td>
+				<td class="quantity-per-unit">10 boxes x 20 bags</td>
+				<td class="units-in-stock">39</td>
+				<td>
+					<input type="checkbox" disabled="disabled"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="numbers">2</td>
+				<td class="product-name">Change</td>
+				<td class="unit-price">$19.00</td>
+				<td class="quantity-per-unit">24 - 12 oz bottles</td>
+				<td class="units-in-stock">17</td>
+				<td>
+					<input type="checkbox" disabled="disabled" />
+				</td>
+			</tr>
+			<tr>
+				<td class="numbers">3</td>
+				<td class="product-name">Aniseed Syrup</td>
+				<td class="unit-price">$10.00</td>
+				<td class="quantity-per-unit">12 - 550 ml bottles</td>
+				<td class="units-in-stock">13</td>
+				<td>
+					<input type="checkbox" disabled="disabled" />
+				</td>
+			</tr>
+			<tr>
+				<td class="numbers">4</td>
+				<td class="product-name">Chef Anton's Cajun Seasoning</td>
+				<td class="quantity-per-unit">$22.00</td>
+				<td class="quantity-per-unit">48 - 6 oz jars</td>
+				<td class="units-in-stock">53</td>
+				<td>
+					<input type="checkbox" disabled="disabled"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="numbers">5</td>
+				<td class="product-name">Chef Anton's Gumbo Mix</td>
+				<td class="unit-price">$21.35</td>
+				<td class="quantity-per-unit">36 boxes</td>
+				<td class="units-in-stock">0</td>
+				<td>
+					<input type="checkbox" checked="checked" disabled="disabled" />
+				</td>	
+			</tr>
+			<tr>
+				<td class="numbers">6</td>
+				<td class="product-name">Grandma's Boysenberry Spread</td>
+				<td class="unit-price">$25.00</td>
+				<td class="quantity-per-unit">12 - 8 oz jars</td>
+				<td class="units-in-stock">120</td>
+				<td>
+					<input type="checkbox" disabled="disabled" />
+				</td>
+			</tr>
+			<tr>
+				<td class="numbers">7</td>
+				<td class="product-name">Uncle Bob's Organic Dried Pears</td>
+				<td class="unit-price">$30.00</td>
+				<td class="quantity-per-unit">12 - 1 lb pkgs.</td>
+				<td>15</td>
+				<td>
+					<input type="checkbox" disabled="disabled" />
+				</td>
+			</tr>
+			<tr>
+				<td class="numbers">8</td>
+				<td class="product-name">Northwoods Cranberry Sauce</td>
+				<td class="unit-price">$40.00</td>
+				<td class="quantity-per-unit">12 - 12 oz jars</td>
+				<td class="units-in-stock">6</td>
+				<td>
+					<input type="checkbox" disabled="disabled" />
+				</td>
+			</tr>
+			<tr>
+				<td class="numbers">9</td>
+				<td class="product-name">Mishi Kobe Niku</td>
+				<td class="unit-price">$97.00</td>
+				<td class="quantity-per-unit">18 - 500 g pkgs.</td>
+				<td class="units-in-stock">29</td>
+				<td>
+					<input type="checkbox" checked="checked" disabled="disabled" />
+				</td>
+			</tr>
+			<tr>
+				<td class="numbers">10</td>
+				<td class="product-name">Ikura</td>
+				<td class="unit-price">$31.00</td>
+				<td class="quantity-per-unit">12 - 200 ml jars</td>
+				<td class="units-in-stock">31</td>
+				<td>
+					<input type="checkbox" disabled="disabled" />
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

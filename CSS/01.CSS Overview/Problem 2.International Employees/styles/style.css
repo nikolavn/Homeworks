@@ -1,0 +1,52 @@
+body{
+    margin:0 auto;
+    font-family:Segoe UI,sans-serif;
+    font-size:0.75em;
+}
+ 
+table, tr, td{
+    border-collapse:collapse;
+}
+ 
+col:nth-child(n){
+    width:200px;
+}
+ 
+col:nth-child(2n){
+    width:150px;
+}
+ 
+thead tr td{
+    border: 1px groove lightgray;
+    background:#54B706;
+    color:white;
+}
+ 
+tbody td, thead td{
+    padding:5px;
+}
+ 
+tbody tr:nth-child(2n){
+    background:#ECECD8;
+}
+ 
+tbody{
+    border:1px solid lightgray;
+}
+ 
+tbody tr td{
+    border-right:1px solid lightgray;
+}
+ 
+.flag {
+    margin-right:5px;
+            width: 16px;
+            height: 11px;
+            background:url(http://goo.gl/mMVXSq) no-repeat;
+}
+ 
+.flag.flag-de {background-position: -80px -33px}
+ 
+.flag.flag-mx {background-position: -192px -99px}
+ 
+.flag.flag-gb {background-position: -176px -44px}

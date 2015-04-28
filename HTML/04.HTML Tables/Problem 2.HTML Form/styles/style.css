@@ -1,0 +1,14 @@
+input{
+    margin-left:5px;
+    margin-top:5px;
+}
+ 
+strong{
+    margin-left:5px;
+}
+ 
+input[type="image"]{
+    width:100px;
+    height:50px;
+    padding:none;
+}

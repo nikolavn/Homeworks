@@ -1,0 +1,21 @@
+body{
+    font-family: Arial
+}
+
+header figure, header h3{
+            display: inline-block;
+}
+
+table, tr, td {
+            border: 1px solid black;
+            border-collapse:collapse;
+            text-align:center;
+}
+
+thead {
+            font-weight: bold;
+}
+
+ul {
+            list-style-type: disc;
+}
