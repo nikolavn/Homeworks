@@ -1,0 +1,14 @@
+article{
+    font-family:Consolas, Arial, sans-serif;
+    color:#0094ff;
+    font-size:14px;
+}
+ 
+article:first-line{
+    font-weight:bold;
+}
+ 
+article:first-letter{
+    font-family:Edwardian Script ITC, Arial, sans-serif;
+    font-size:2.2em;
+}

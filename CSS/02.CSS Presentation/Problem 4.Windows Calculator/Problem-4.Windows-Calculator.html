@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Windows Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css"></head>
+<body>
+<div id='calculator'>
+    <nav>
+        <ul>
+            <li>View</li>
+            <li>Edit</li>
+            <li>Help</li>
+        </ul>
+    </nav>
+    <div id='calculator-body'>
+        <div id='result-area'>
+            <input type='text' value='8854455 '/>
+        </div>
+        <div id='binary-representation'>
+            <table>
+                <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr>
+                    <td class='bit-number-left'>63</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class='bit-number-left'>47</td>
+                    <td></td>
+                    <td></td>
+                    <td  class='bit-number-right-double'>32</td>
+                </tr>
+                <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>1000</td>
+                    <td>0111</td>
+                    <td>0001</td>
+                    <td>1011</td>
+                    <td>1011</td>
+                    <td>0111</td>
+                </tr>
+                <tr>
+                    <td class='bit-number-left'>31</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class='bit-number-left'>15</td>
+                    <td></td>
+                    <td></td>
+                    <td  class='bit-number-right-single'>0</td>
+                </tr>
+            </table>
+        </div>
+        <div id='inputs-container'>
+            <table>
+                <tr>
+                    <td class='checkbox-container disabled' rowspan='3' colspan='2'>
+                        <ul>
+                            <li><input name='num-system' type='radio'/>Hex</li>
+                            <li><input name='num-system'type='radio' checked />Dec</li>
+                            <li><input name='num-system'type='radio'/>Oct</li>
+                            <li><input name='num-system'type='radio'/>Bin</li>
+                        </ul>
+                    </td>
+                    <td class='button disabled'></td>
+                    <td class='button active dark'>Mod</td>
+                    <td class='button disabled'>A</td>
+                    <td class='button inactive'>MC</td>
+                    <td class='button inactive'>MR</td>
+                    <td class='button inactive'>MS</td>
+                    <td class='button inactive'>M+</td>
+                    <td class='button inactive'>M-</td>
+                </tr>
+                <tr>
+                    <td class='button active dark'>(</td>
+                    <td class='button active dark'>)</td>
+                    <td class='button disabled'>B</td>
+                    <td class='button active dark'><span id='big'>&larr;</span></td>
+                    <td class='button active dark'>CE</td>
+                    <td class='button active dark'>C</td>
+                    <td class='button active dark'>&plusmn;</td>
+                    <td class='button disabled'>&radic;</td>
+                </tr>
+                 <tr>
+                    <td class='button active dark'>RoL</td>
+                    <td class='button active dark'>RoR</td>
+                    <td class='button disabled'>C</td>
+                    <td class='button active light'>7</td>
+                    <td class='button active light'>8</td>
+                    <td class='button active light'>9</td>
+                     <td class='button active dark'>/</td>
+                    <td class='button disabled'>%</td>
+                </tr>
+                <tr>
+                    <td class='checkbox-container disabled' rowspan='3' colspan='2'>
+                        <ul>
+                            <li><input name='initializers' type='radio' checked/>Qword</li>
+                            <li><input name='initializers'type='radio'/>Dword</li>
+                            <li><input name='initializers'type='radio'/>Word</li>
+                            <li><input name='initializers'type='radio'/>Byte</li>
+                        </ul>
+                    </td>
+                    <td class='button active dark'>Or</td>
+                    <td class='button active dark'>Xor</td>
+                    <td class='button disabled'>D</td>
+                    <td class='button active light'>4</td>
+                    <td class='button active light'>5</td>
+                    <td class='button active light'>6</td>
+                    <td class='button active dark'>*</td>
+                    <td class='button disabled'>1/<span id='small'>&#967;</span></td>
+                </tr>
+                <tr>
+                    <td class='button active dark'>Lsh</td>
+                    <td class='button active dark'>Rsh</td>
+                    <td class='button disabled'>E</td>
+                    <td class='button active light'>1</td>
+                    <td class='button active light'>2</td>
+                    <td class='button active light'>3</td>
+                    <td class='button active dark'>-</td>
+                    <td class='button active dark' rowspan='2'>=</td>
+                </tr>
+                 <tr>
+                    <td class='button active dark'>Not</td>
+                    <td class='button active dark'>And</td>
+                    <td class='button disabled'>F</td>
+                    <td class='button active light' colspan='2'>0</td>
+                    <td class='button disabled'>.</td>
+                    <td class='button active dark'>+</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

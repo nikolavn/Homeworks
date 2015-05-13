@@ -1,0 +1,104 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    *border: 1px solid black;
+}
+
+li
+{
+    display: inline-block;
+
+    list-style: none;
+}
+
+#page-container
+{
+    overflow: hidden;
+
+    width: 662px;
+
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+nav
+{
+    background: rgb(59,59,59); /* Old browsers */
+    background:    -moz-linear-gradient(top,  rgba(59,59,59,1) 0%, rgba(59,59,59,1) 49%, rgba(38,38,38,1) 85%, rgba(38,38,38,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(59,59,59,1)), color-stop(49%,rgba(59,59,59,1)), color-stop(85%,rgba(38,38,38,1)), color-stop(100%,rgba(38,38,38,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(59,59,59,1) 0%,rgba(59,59,59,1) 49%,rgba(38,38,38,1) 85%,rgba(38,38,38,1) 100%); /* Chrome10+,Safari5.1+ */
+    background:      -o-linear-gradient(top,  rgba(59,59,59,1) 0%,rgba(59,59,59,1) 49%,rgba(38,38,38,1) 85%,rgba(38,38,38,1) 100%); /* Opera 11.10+ */
+    background:     -ms-linear-gradient(top,  rgba(59,59,59,1) 0%,rgba(59,59,59,1) 49%,rgba(38,38,38,1) 85%,rgba(38,38,38,1) 100%); /* IE10+ */
+    background:         linear-gradient(to bottom,  rgba(59,59,59,1) 0%,rgba(59,59,59,1) 49%,rgba(38,38,38,1) 85%,rgba(38,38,38,1) 100%); /* W3C */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#262626',GradientType=0 ); /* IE6-9 */
+}
+
+nav,
+ul
+{
+    overflow: hidden;
+}
+
+nav ul li
+{
+    margin: 10px;
+}
+
+nav ul li.text-input{
+    margin-top: 20px;
+}
+
+nav ul li label
+{
+    font-size: 1.3em;
+
+    margin-right: 10px;
+
+    color: white;
+}
+
+nav li:first-child
+{
+    float: left;
+}
+
+nav li:last-child
+{
+    float: right;
+}
+
+nav input[type='text']
+{
+    width: 150px;
+}
+
+section
+{
+    overflow: hidden;
+
+    color: #a2a2a2;
+    background: #3b3b3b;
+}
+
+header
+{
+    font-size: 1.5em;
+
+    margin: 10px;
+
+    color: #fdd416;
+}
+
+article p
+{
+    margin: 10px 20px 10px 10px;
+}
+
+article p span
+{
+    color: white;
+}
