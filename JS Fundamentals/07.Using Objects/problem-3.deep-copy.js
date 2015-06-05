@@ -10,7 +10,7 @@ function deepCopy(target) {
 		return target;
 	}
 
-	if (Object.prototype.toString.call(target) === '[object Array]') {
+	if (Array.isArray(target)) {
 		var outputArray = [];
 
 		for (var i = 0; i < target.length; i++) {
