@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>StringExtensions</name>
+  </assembly>
+  <members>
+    <member name="T:Telerik.ILS.Common.StringExtensions">
+      <summary>
+            Contains extension methods for the <see cref="T:System.String" /> class.
+            </summary>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.CapitalizeFirstLetter(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ConvertCyrillicToLatinLetters(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="fileName">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>fileName</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetFileExtension(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="charsCount">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>charsCount</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetFirstCharacters(System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="startString">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>startString</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="endString">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>endString</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="startFrom">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>startFrom</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToBoolean(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToByteArray(System.String)">
+      <summary>
+            Converts a set of characters from the specified character array 
+            into a sequence of bytes.
+            </summary>
+      <param name="input">Input string.</param>
+      <returns>
+            A byte array containing the specified set of characters.
+            </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="fileExtension">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>fileExtension</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToContentType(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToDateTime(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToInteger(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToLong(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToMD5Hash(System.String)">
+      <summary>
+            Calculates the MD5 hash of a string.
+            </summary>
+      <param name="input">The string to get the MD5 hash of</param>
+      <returns>MD5 hash as string</returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToShort(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToValidLatinFileName(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Telerik.ILS.Common.StringExtensions.ToValidLatinUsername(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToValidLatinUsername(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="input">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>input</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToValidLatinUsername(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Telerik.ILS.Common.StringExtensions.ToValidLatinUsername(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+  </members>
+</doc>

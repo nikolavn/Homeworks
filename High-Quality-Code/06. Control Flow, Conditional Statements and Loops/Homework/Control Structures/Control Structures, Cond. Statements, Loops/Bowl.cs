@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Control_Structures__Cond.Statements__Loops
+{
+    public class Bowl
+    {
+        public void Add(Vegetable vegetable)
+        {
+            throw new MissingMethodException();
+        }
+    }
+}
