@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../School/School.csproj",
+      "bin": {
+        "assembly": "../../School/obj/{configuration}/School.dll",
+        "pdb": "../../School/obj/{configuration}/School.pdb"
+      }
+    }
+  }
+}

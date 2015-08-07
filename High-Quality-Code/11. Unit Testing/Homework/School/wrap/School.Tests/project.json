@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../School.Tests/School.Tests.csproj",
+      "bin": {
+        "assembly": "../../School.Tests/obj/{configuration}/School.Tests.dll",
+        "pdb": "../../School.Tests/obj/{configuration}/School.Tests.pdb"
+      },
+      "dependencies": {
+        "School": "1.0.0-*",
+        "Microsoft.VisualStudio.QualityTools.UnitTestFramework": "1.0.0-*"
+      }
+    }
+  }
+}
