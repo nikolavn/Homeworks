@@ -18,3 +18,54 @@
 - Внася тясна свързаност м/у себе си и всеки клас, който го използва. Класовете използващи **Singleton** класът не могат да съществуват самостоятелно и независимо от него.
 
 - Не е сигурен в многонишкова среда. Причината е за това е, че две (или повече нишки) могат да достъпят едновременно проверката, дали съществува инстанция на класа и едновремнно да я изчислят като невярна. В този случай ще се създадат две инстанции на **Singleton** класа, което нарушава шаблона.
+
+
+###Code sample
+
+```csharp
+using System;
+
+public class MainApp
+{
+	public static void Main()
+	{
+		var config = Configuration.Instance;
+
+		config.Load();
+		config.SaveSettings();
+	}
+}
+
+public sealed class Configuration
+{
+	private static readonly Configuration instance = new Configuration();
+
+	static Configuration()
+	{
+
+	}
+
+	private Configuration()
+	{
+
+	}
+
+	public static Configuration Instance
+	{
+		get
+		{
+			return instance;
+		}
+	}
+
+	public void SaveSettings()
+	{
+		Console.WriteLine("Settings Saved!");
+	}
+
+	public void Load()
+	{
+		Console.WriteLine("Configuration Loaded!");
+	}
+}
+```
