@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker", "Poker.csproj", "{28FE6BA3-4622-406E-81C4-419B0D2368F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker.Examples", "..\Poker.Examples\Poker.Examples.csproj", "{F3DF50A9-566B-4B17-B0D6-80B333293A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker.Tests", "Poker.Tests\Poker.Tests.csproj", "{6C16879A-F2FE-4954-85F6-BE0F91EDC9EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FE6BA3-4622-406E-81C4-419B0D2368F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DF50A9-566B-4B17-B0D6-80B333293A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DF50A9-566B-4B17-B0D6-80B333293A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DF50A9-566B-4B17-B0D6-80B333293A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DF50A9-566B-4B17-B0D6-80B333293A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C16879A-F2FE-4954-85F6-BE0F91EDC9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C16879A-F2FE-4954-85F6-BE0F91EDC9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C16879A-F2FE-4954-85F6-BE0F91EDC9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C16879A-F2FE-4954-85F6-BE0F91EDC9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
