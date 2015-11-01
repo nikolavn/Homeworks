@@ -1,79 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="students.xsl" ?>
-
-<students xmlns:students="urn:students"
-          xmlns:student="urn:students:student"
-          xmlns:exams="urn:students:student:exams"
-          xmlns:exam="urn:students:student:exams:exam">
-  <students:student>
-    <student:firstName>Pesho</student:firstName>
-    <student:lastName>Ivanov</student:lastName>
-    <student:gender>Male</student:gender>
-    <student:birthDate>1974-09-17</student:birthDate>
-    <student:phone>+359888123456</student:phone>
-    <student:email>peshoivanov@gmail.com</student:email>
-    <student:course>DSA</student:course>
-    <student:specialty>Academy Ninja</student:specialty>
-    <student:facultyNumber>55667788</student:facultyNumber>
-    <student:exams>
-      <exams:exam id="csharp">
-        <exam:name>CSharp</exam:name>
-        <exam:tutor>Csharp Guru</exam:tutor>
-        <exam:score>85</exam:score>
-      </exams:exam>
-      <exams:exam id="javascript">
-        <exam:name>Java Script</exam:name>
-        <exam:tutor>JS Guru</exam:tutor>
-        <exam:score>93</exam:score>
-      </exams:exam>
-      <exams:exam id="hqc">
-        <exam:name>High Quality Code</exam:name>
-        <exam:tutor>HQC Master</exam:tutor>
-        <exam:score>72</exam:score>
-      </exams:exam>
-      <exams:exam id="databases">
-        <exam:name>Databases</exam:name>
-        <exam:tutor>DB Wizard</exam:tutor>
-        <exam:score>88</exam:score>
-      </exams:exam>
-    </student:exams>
-  </students:student>
-  <students:student>
-    <student:firstName>Mariika</student:firstName>
-    <student:lastName>Petrova</student:lastName>
-    <student:gender>Female</student:gender>
-    <student:birthDate>1982-11-02</student:birthDate>
-    <student:phone>+359888567890</student:phone>
-    <student:email>mariikapet@gmail.com</student:email>
-    <student:course>JS SPA</student:course>
-    <student:specialty>Front-End</student:specialty>
-    <student:facultyNumber>11223344</student:facultyNumber>
-    <student:exams>
-      <exams:exam id="html">
-        <exam:name>HTML</exam:name>
-        <exam:tutor>HTML Guru</exam:tutor>
-        <exam:score>93</exam:score>
-      </exams:exam>
-      <exams:exam id="javascript">
-        <exam:name>Java Script</exam:name>
-        <exam:tutor>JS Guru</exam:tutor>
-        <exam:score>99</exam:score>
-      </exams:exam>
-      <exams:exam id="css">
-        <exam:name>CSS</exam:name>
-        <exam:tutor>CSS Master</exam:tutor>
-        <exam:score>87</exam:score>
-      </exams:exam>
-      <exams:exam id="jsapps">
-        <exam:name>JS Applications</exam:name>
-        <exam:tutor>JS Wizard</exam:tutor>
-        <exam:score>91</exam:score>
-      </exams:exam>
-    <exams:exam id="jsuidom">
-        <exam:name>JS UI and DOM</exam:name>
-        <exam:tutor>JS Guru</exam:tutor>
-        <exam:score>97</exam:score>
-      </exams:exam>
-    </student:exams>
-  </students:student>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students>
+  <student>
+    <firstName>Pesho</firstName>
+    <lastName>Ivanov</lastName>
+    <gender>Male</gender>
+    <birthDate>1974-09-17</birthDate>
+    <phone>+359888123456</phone>
+    <email>peshoivanov@gmail.com</email>
+    <course>DSA</course>
+    <specialty>Academy Ninja</specialty>
+    <facultyNumber>55667788</facultyNumber>
+    <exams>
+      <exam id="csharp">
+        <name>CSharp</name>
+        <tutor>Csharp Guru</tutor>
+        <score>85</score>
+      </exam>
+      <exam id="javascript">
+        <name>Java Script</name>
+        <tutor>JS Guru</tutor>
+        <score>93</score>
+      </exam>
+      <exam id="hqc">
+        <name>High Quality Code</name>
+        <tutor>HQC Master</tutor>
+        <score>72</score>
+      </exam>
+      <exam id="databases">
+        <name>Databases</name>
+        <tutor>DB Wizard</tutor>
+        <score>88</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <firstName>Mariika</firstName>
+    <lastName>Petrova</lastName>
+    <gender>Female</gender>
+    <birthDate>1982-11-02</birthDate>
+    <phone>+359888567890</phone>
+    <email>mariikapet@gmail.com</email>
+    <course>JS SPA</course>
+    <specialty>Front-End</specialty>
+    <facultyNumber>11223344</facultyNumber>
+    <exams>
+      <exam id="html">
+        <name>HTML</name>
+        <tutor>HTML Guru</tutor>
+        <score>93</score>
+      </exam>
+      <exam id="javascript">
+        <name>Java Script</name>
+        <tutor>JS Guru</tutor>
+        <score>99</score>
+      </exam>
+      <exam id="css">
+        <name>CSS</name>
+        <tutor>CSS Master</tutor>
+        <score>87</score>
+      </exam>
+      <exam id="jsapps">
+        <name>JS Applications</name>
+        <tutor>JS Wizard</tutor>
+        <score>91</score>
+      </exam>
+      <exam id="jsuidom">
+        <name>JS UI and DOM</name>
+        <tutor>JS Guru</tutor>
+        <score>97</score>
+      </exam>
+    </exams>
+  </student>
 </students>
