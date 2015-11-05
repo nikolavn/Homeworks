@@ -41,6 +41,14 @@
             }
         }
 
+        public bool HasParent
+        {
+            get
+            {
+                return this.hasParent;
+            }
+        }
+
         public void AddChild(TreeNode<T> child)
         {
             if (child == null)
@@ -56,7 +64,7 @@
             child.hasParent = true;
             this.children.Add(child);
         }
-
+        
         public TreeNode<T> GetChild(int index)
         {
             return this.children[index];
