@@ -150,7 +150,8 @@ namespace TTFTasks
         {
             Manager.LaunchNewApplication(new ProcessStartInfo(appPath));
 
-            Manager.ActiveApplication.MainWindow.Find.ByName("File").User.Click();
+            Manager.ActiveApplication.MainWindow.Find.ByTextContent("New Project...").User.Click();
+            Manager.ActiveApplication.WaitForWindow("New Project");
         }
     }    
 }

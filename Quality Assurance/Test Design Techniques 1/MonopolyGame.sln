@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyGame", "MonopolyGame\MonopolyGame.csproj", "{1C0AED49-84A0-4DC1-9100-A5C1854D06D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyGame.Tests", "MonopolyGame.Tests\MonopolyGame.Tests.csproj", "{0A74F343-B4E4-4E69-9EC8-92F9B4FD4FAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C0AED49-84A0-4DC1-9100-A5C1854D06D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0AED49-84A0-4DC1-9100-A5C1854D06D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0AED49-84A0-4DC1-9100-A5C1854D06D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0AED49-84A0-4DC1-9100-A5C1854D06D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A74F343-B4E4-4E69-9EC8-92F9B4FD4FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A74F343-B4E4-4E69-9EC8-92F9B4FD4FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A74F343-B4E4-4E69-9EC8-92F9B4FD4FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A74F343-B4E4-4E69-9EC8-92F9B4FD4FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

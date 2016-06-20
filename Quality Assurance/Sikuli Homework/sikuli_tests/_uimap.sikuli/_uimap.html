@@ -1,0 +1,166 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>_uimap.sikuli</h2> <a href="_uimap.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="cmt">########################################################</span>
+<span class="cmt"># UI map for XYZ</span>
+<span class="cmt">########################################################</span>
+<span class="kw">from</span> sikuli <span class="kw">import</span> *
+<span class="cmt">########################################################</span>
+
+<span class="kw">class</span> TA:
+    googleSearchBox = <img src="googleSearchBox.png" />
+
+    googleImagesTab = <img src="googleImagesTab.png" />
+
+    googleImageSearch = <img src="googleImageSearch.png" />
+
+    searchTargetImage = <img src="searchTargetImage.png" />
+
+    contextMenuCopyLink = <img src="imageContextMenu.png" />
+
+    addressBar = <img src="addressBar.png" />
+
+    contextMenuPasteAndGo = <img src="contextMenuPasteAndGo.png" />
+
+    topSearchResult = <img src="1452978686415.png" />
+
+    minimizeWindow = Pattern(<img src="minimizeWindow.png" />).targetOffset(-<span class="dig">49</span>,<span class="dig">0</span>)
+
+<span class="kw">class</span> Calculator:
+
+    title = <img src="calcTitle.png" />
+
+<span class="kw">class</span> Capitals:
+
+    rome = <img src="rome.png" />
+
+    madrid = <img src="madrid.png" />
+
+    oslo = <img src="oslo.png" />
+
+    stockholm = <img src="stockholm.png" />
+
+    washington = <img src="washington.png" />
+
+    copenhagen = <img src="copenhagen.png" />
+
+    seoul = <img src="seoul.png" />
+
+
+<span class="kw">class</span> Countries:
+
+    italy = <img src="Italy.png" />
+
+    spain = <img src="spain.png" />
+
+    denmark = <img src="denmark.png" />
+
+    norway = <img src="norway.png" />
+
+    southKorea = <img src="southKorea.png" />
+
+    sweden = <img src="sweden.png" />
+
+    unitedStates =   <img src="1453063825153.png" />
+
+<span class="kw">class</span> CountryCapitalMatches:
+
+    italy = <img src="italyMatch.png" />
+
+    spain = <img src="spainMatch.png" />
+
+    norway = <img src="norwayMatch.png" />
+
+    denmark = <img src="denmarkMatch.png" />
+
+    sweden = <img src="swedenMatch.png" />
+
+    southKorea = <img src="southKoreaMatch.png" />
+
+    unitedStates= <img src="unitedStatesMatch.png" />
+
+<span class="kw">class</span> Skype:
+
+    useAnotherAccount = <img src="useAnotherAccount.png" />
+
+    userName = <img src="userName.png" />
+
+    password = <img src="password.png" />
+
+    signInButton = <img src="1453065054677.png" />
+
+    contacts = <img src="contacts.png" />
+
+    contactSearch = <img src="contactSearch.png" />
+</pre>
+</body>
+</html>
