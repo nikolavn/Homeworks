@@ -15,7 +15,7 @@
         private static readonly string PeopleEndpoint = "3/search/person";
         private static readonly string TVCreditsEndpointFormat = "3/person/{0}/tv_credits";
         private static readonly string CreditDetailsEndpointFormat = "3/credit/{0}";
-        private const string ApiKey = "8e44e41d1573ab3d390b11fc6d35d95e";
+        private const string ApiKey = "xxxxxxxxxxxx";
 
         public static void Main()
         {           
