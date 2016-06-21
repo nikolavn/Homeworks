@@ -1,10 +1,13 @@
 ﻿namespace MovieInfoApp.Models
 {
-    //using Newtonsoft.Json;
+    using Newtonsoft.Json;
 
-    class ActorModel
+    public class ActorModel
     {
-        //[JsonProperty("id")]
+        [JsonProperty("id")]
         public int Id { get; set; }
+
+        [JsonProperty("name")]
+        public string Name { get; set; }
     }
 }
