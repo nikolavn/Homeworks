@@ -8,27 +8,18 @@
 
     using Newtonsoft.Json;
     using Models;
+    using System.Threading.Tasks;
 
-    public class MovieDb
+    public static class MovieDb
     {
         private static readonly Uri BaseUrl = new Uri("https://api.themoviedb.org/");
         private static readonly string PeopleEndpoint = "3/search/person";
         private static readonly string TVCreditsEndpointFormat = "3/person/{0}/tv_credits";
         private static readonly string CreditDetailsEndpointFormat = "3/credit/{0}";
-        private const string ApiKey = "xxxxxxxxxxxx";
+        private const string ApiKey = "8e44e41d1573ab3d390b11fc6d35d95e";
 
-        public static void Main()
-        {           
 
-            var actor = GetActorInfoByName("Nell Tiger Free");
-            var credits = GetTVCreditsByActorId(actor.Id);
-            var creditsId = credits.FirstOrDefault().CreditsId;
-            var seriesInfo = GetTVSeriesDetailsByCreditsId(creditsId);
-
-            Console.WriteLine();
-        }
-
-        public static ActorModel GetActorInfoByName(string name)
+        public static async Task<ActorModel> GetActorInfoByName(string name)
         {
             string responseData;
             string nameQuery = "query=" + Uri.EscapeUriString(name);
@@ -42,17 +33,15 @@
 
             client.BaseAddress = targetUrl.Uri;
 
-
-            var response = client.GetAsync("").Result;
-            responseData = response.Content.ReadAsStringAsync().Result;
-
+            Task<string> response = client.GetStringAsync("");
+            responseData = await response;
 
             var actors = JsonConvert.DeserializeObject<ActorSearchResults>(responseData);
 
             return actors.Results.FirstOrDefault();
         }
 
-        public static List<CreditsModel> GetTVCreditsByActorId(int actorId)
+        public static async Task<List<CreditsModel>> GetTVCreditsByActorId(int actorId)
         {
             string responseData;
             var endPointWithActorId = string.Format(TVCreditsEndpointFormat, actorId);
@@ -63,15 +52,15 @@
             var targetUrl = CreateUrl(BaseUrl, endPointWithActorId);
             client.BaseAddress = targetUrl.Uri;
 
-            var response = client.GetAsync("").Result;
-            responseData = response.Content.ReadAsStringAsync().Result;
+            Task<string> response = client.GetStringAsync("");
+            responseData = await response;
 
             var credits = JsonConvert.DeserializeObject<CreditsSearchResults>(responseData);
 
             return credits.Credits;
         }
 
-        public static SeriesInfo GetTVSeriesDetailsByCreditsId(string creditsId)
+        public static async Task<SeriesInfo> GetTVSeriesDetailsByCreditsId(string creditsId)
         {
             string responseData;
 
@@ -83,8 +72,8 @@
             var targetUrl = CreateUrl(BaseUrl, endPointWithCreditsId);
             client.BaseAddress = targetUrl.Uri;
 
-            var response = client.GetAsync("").Result;
-            responseData = response.Content.ReadAsStringAsync().Result;
+            var response = client.GetStringAsync("");
+            responseData = await response;
 
             var result = JsonConvert.DeserializeObject<SeriesSearchResults>(responseData);
 

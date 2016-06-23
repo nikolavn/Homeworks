@@ -58,6 +58,7 @@
     <Compile Include="Models\SeriesInfo.cs" />
     <Compile Include="Models\SeriesSearchResults.cs" />
     <Compile Include="MovieDb.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="UriExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

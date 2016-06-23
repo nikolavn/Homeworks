@@ -8,9 +8,15 @@
         public static Uri AddParameter(this Uri url, string paramName, string paramValue)
         {
             var uriBuilder = new UriBuilder(url);
-            var query = HttpUtility.ParseQueryString(uriBuilder.Query);
-            query[paramName] = paramValue;
-            uriBuilder.Query = query.ToString();
+
+            if (uriBuilder.Query != null && uriBuilder.Query.Length > 1)
+            {
+                uriBuilder.Query = uriBuilder.Query.Substring(1) + "&" + paramName + "=" + paramValue;
+            }
+            else
+            {
+                uriBuilder.Query = paramName + "=" + paramValue;
+            }
 
             return uriBuilder.Uri;
         }
