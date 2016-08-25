@@ -3,7 +3,7 @@
     using Newtonsoft.Json;
     using System.Collections.Generic;
 
-    public class ActorSearchResults
+    public class ActorSearchResultsModel
     {
         [JsonProperty("results")]
         public List<ActorModel> Results { get; set; }

@@ -49,13 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActorInfo.cs" />
     <Compile Include="Models\ActorModel.cs" />
-    <Compile Include="Models\ActorSearchResults.cs" />
+    <Compile Include="Models\ActorSearchResultsModel.cs" />
     <Compile Include="Models\CreditsModel.cs" />
-    <Compile Include="Models\CreditsSearchResults.cs" />
+    <Compile Include="Models\CreditsSearchResultsModel.cs" />
     <Compile Include="Models\EpisodeModel.cs" />
     <Compile Include="Models\SeasonModel.cs" />
-    <Compile Include="Models\SeriesInfo.cs" />
+    <Compile Include="Models\SeriesInfoModel.cs" />
     <Compile Include="Models\SeriesSearchResults.cs" />
     <Compile Include="MovieDb.cs" />
     <Compile Include="Startup.cs" />
@@ -63,7 +64,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".bin\git.cmd" />
+    <None Include=".bin\node.cmd" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

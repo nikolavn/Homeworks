@@ -13,7 +13,7 @@
         private static ActorModel actorInfo;
         private static CreditsModel credits;
         private static string creditsId;
-        private static SeriesInfo seriesInfo;
+        private static SeriesInfoModel seriesInfo;
         private static List<EpisodeModel> episodes;
         private static List<SeasonModel> seasons;
 

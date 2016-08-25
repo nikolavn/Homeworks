@@ -10,14 +10,53 @@
     using Models;
     using System.Threading.Tasks;
 
-    public static class MovieDb
+    public class MovieDb
     {
-        private static readonly Uri BaseUrl = new Uri("https://api.themoviedb.org/");
+        //private static readonly Uri BaseUrl = new Uri("https://api.themoviedb.org/");
         private static readonly string PeopleEndpoint = "3/search/person";
         private static readonly string TVCreditsEndpointFormat = "3/person/{0}/tv_credits";
         private static readonly string CreditDetailsEndpointFormat = "3/credit/{0}";
         private const string ApiKey = "8e44e41d1573ab3d390b11fc6d35d95e";
+        private Uri baseUrl;
+        private HttpClient client;
+        private static MovieDb instance;
 
+        private MovieDb()
+        {
+
+        }
+
+        public static MovieDb Instance
+        {
+            get
+            {
+                if(instance == null)
+                {
+                    instance = new MovieDb();
+                }
+
+                return instance;
+            }
+        }
+
+        public Uri BaseUrl
+        {
+            get { return this.baseUrl; }
+            set { this.baseUrl = value; }
+        }
+
+        public HttpClient Client
+        {
+            get { return this.client; }
+            set { this.client = value; }
+        }
+
+        public void Connect(HttpClient client, Uri baseUrl, string apiKey)
+        {
+            this.Client = client;
+            this.BaseUrl = baseUrl.AddParameter("api_key",apiKey);
+            client.BaseAddress = this.BaseUrl;
+        }
 
         public static async Task<ActorModel> GetActorInfoByName(string name)
         {
@@ -36,7 +75,7 @@
             Task<string> response = client.GetStringAsync("");
             responseData = await response;
 
-            var actors = JsonConvert.DeserializeObject<ActorSearchResults>(responseData);
+            var actors = JsonConvert.DeserializeObject<ActorSearchResultsModel>(responseData);
 
             return actors.Results.FirstOrDefault();
         }
@@ -55,12 +94,12 @@
             Task<string> response = client.GetStringAsync("");
             responseData = await response;
 
-            var credits = JsonConvert.DeserializeObject<CreditsSearchResults>(responseData);
+            var credits = JsonConvert.DeserializeObject<CreditsSearchResultsModel>(responseData);
 
             return credits.Credits;
         }
 
-        public static async Task<SeriesInfo> GetTVSeriesDetailsByCreditsId(string creditsId)
+        public static async Task<SeriesInfoModel> GetTVSeriesDetailsByCreditsId(string creditsId)
         {
             string responseData;
 

@@ -5,6 +5,6 @@
     public class SeriesSearchResults
     {
         [JsonProperty("media")]
-        public SeriesInfo SeriesInfo { get; set; }
+        public SeriesInfoModel SeriesInfo { get; set; }
     }
 }

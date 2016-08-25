@@ -4,7 +4,7 @@
 
     using Newtonsoft.Json;
 
-    public class SeriesInfo
+    public class SeriesInfoModel
     {
         [JsonProperty("episodes")]
         public List<EpisodeModel> Episodes { get; set; }
