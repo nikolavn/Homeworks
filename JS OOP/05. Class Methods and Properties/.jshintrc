@@ -1,0 +1,7 @@
+{
+  "curly":true,
+  "undef":true,
+  "unused":true,
+  "esversion":6,
+  "strict":true
+}
